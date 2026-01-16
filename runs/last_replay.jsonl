@@ -1,0 +1,70 @@
+{"type":"header","ts":1766740495.66491,"header":{"version":1,"created_at":1766740495.66491,"session_id":"6623b0e2-b000-49e5-8742-e14cec4f3db6","seed":2003894709,"difficulty_name":"MEDIUM"}}
+{"type":"command","ts":1766740500.0101337,"command":"start_round","payload":{"round":1}}
+{"type":"event","ts":1766740500.0101337,"event":{"timestamp":1766740500.0101337,"event_type":"round_start","data":{"round":1},"message":"Round 1 started"}}
+{"type":"command","ts":1766740529.6445453,"command":"aggress_buy","payload":{"price":27.2,"qty":1}}
+{"type":"event","ts":1766740529.6445453,"event":{"timestamp":1766740529.6445453,"event_type":"trade_executed","data":{"price":27.2,"quantity":1,"side":"buy"},"message":"Trade buy"}}
+{"type":"event","ts":1766740542.6093435,"event":{"timestamp":1766740542.6093435,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"event","ts":1766740571.5828347,"event":{"timestamp":1766740571.5828347,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"event","ts":1766740590.7446856,"event":{"timestamp":1766740590.7446856,"event_type":"round_end","data":{"round":1},"message":"Round 1 ended"}}
+{"type":"event","ts":1766740590.7446856,"event":{"timestamp":1766740590.7446856,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",0.3999999999999986],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["YOU",-0.3000000000000007],["HFT_Shark",-0.3000000000000007]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766740590.7446856,"event":{"timestamp":1766740590.7446856,"event_type":"digit_reveal","data":{"digit":0,"index":0},"message":"Digit 1 revealed: 0"}}
+{"type":"event","ts":1766740600.6870458,"event":{"timestamp":1766740600.6870458,"event_type":"round_start","data":{"round":2},"message":"Round 2 started"}}
+{"type":"event","ts":1766740601.099494,"event":{"timestamp":1766740601.099494,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"event","ts":1766740614.9422605,"event":{"timestamp":1766740614.9422605,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"command","ts":1766740647.7515805,"command":"hit","payload":{"price":22.2,"qty":1}}
+{"type":"event","ts":1766740647.7521915,"event":{"timestamp":1766740647.7521915,"event_type":"trade_executed","data":{"price":22.2,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"event","ts":1766740649.5069494,"event":{"timestamp":1766740649.5069494,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"command","ts":1766740662.7749,"command":"hit","payload":{"price":22.2,"qty":1}}
+{"type":"event","ts":1766740662.7749,"event":{"timestamp":1766740662.7749,"event_type":"trade_executed","data":{"price":22.2,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"event","ts":1766740691.308228,"event":{"timestamp":1766740691.308228,"event_type":"round_end","data":{"round":2},"message":"Round 2 ended"}}
+{"type":"event","ts":1766740691.308228,"event":{"timestamp":1766740691.308228,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",5.699999999999996],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["HFT_Shark",-0.9000000000000021],["YOU",-5.400000000000002]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766740691.308228,"event":{"timestamp":1766740691.308228,"event_type":"digit_reveal","data":{"digit":7,"index":1},"message":"Digit 2 revealed: 7"}}
+{"type":"event","ts":1766740701.4489052,"event":{"timestamp":1766740701.4489052,"event_type":"round_start","data":{"round":3},"message":"Round 3 started"}}
+{"type":"command","ts":1766740722.514746,"command":"hit","payload":{"price":24.7,"qty":1}}
+{"type":"event","ts":1766740722.514746,"event":{"timestamp":1766740722.514746,"event_type":"trade_executed","data":{"price":24.7,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"event","ts":1766740735.9375994,"event":{"timestamp":1766740735.9375994,"event_type":"volatility_spike","data":{"old":1.1474931532436223,"new":2.0654876758385203},"message":"Vol spike"}}
+{"type":"event","ts":1766740754.5797422,"event":{"timestamp":1766740754.5797422,"event_type":"volatility_spike","data":{"old":2.0654876758385203,"new":3.7178778165093367},"message":"Vol spike"}}
+{"type":"event","ts":1766740792.4027781,"event":{"timestamp":1766740792.4027781,"event_type":"round_end","data":{"round":3},"message":"Round 3 ended"}}
+{"type":"event","ts":1766740792.4027781,"event":{"timestamp":1766740792.4027781,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",8.599999999999994],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["HFT_Shark",-1.2000000000000028],["YOU",-8.200000000000003]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766740792.4027781,"event":{"timestamp":1766740792.4027781,"event_type":"digit_reveal","data":{"digit":3,"index":2},"message":"Digit 3 revealed: 3"}}
+{"type":"event","ts":1766740802.35334,"event":{"timestamp":1766740802.35334,"event_type":"round_start","data":{"round":4},"message":"Round 4 started"}}
+{"type":"event","ts":1766740808.4983308,"event":{"timestamp":1766740808.4983308,"event_type":"liquidity_crash","data":{},"message":"Liquidity crash"}}
+{"type":"event","ts":1766740812.8268774,"event":{"timestamp":1766740812.8268774,"event_type":"volatility_spike","data":{"old":3.992829958594508,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766740889.1843739,"event":{"timestamp":1766740889.1843739,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766740893.1094606,"event":{"timestamp":1766740893.1094606,"event_type":"round_end","data":{"round":4},"message":"Round 4 ended"}}
+{"type":"event","ts":1766740893.1094606,"event":{"timestamp":1766740893.1094606,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",5.599999999999994],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["HFT_Shark",-1.2000000000000028],["YOU",-5.200000000000003]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766740893.1094606,"event":{"timestamp":1766740893.1094606,"event_type":"digit_reveal","data":{"digit":3,"index":3},"message":"Digit 4 revealed: 3"}}
+{"type":"event","ts":1766740903.2089307,"event":{"timestamp":1766740903.2089307,"event_type":"round_start","data":{"round":5},"message":"Round 5 started"}}
+{"type":"command","ts":1766740957.7909677,"command":"hit","payload":{"price":20.9,"qty":1}}
+{"type":"command","ts":1766740965.5299351,"command":"lift","payload":{"price":21.9,"qty":1}}
+{"type":"command","ts":1766740968.424607,"command":"lift","payload":{"price":22.3,"qty":1}}
+{"type":"event","ts":1766740968.424607,"event":{"timestamp":1766740968.424607,"event_type":"trade_executed","data":{"price":22.3,"quantity":1,"side":"buy"},"message":"Trade buy"}}
+{"type":"command","ts":1766740970.4062574,"command":"lift","payload":{"price":22.3,"qty":1}}
+{"type":"event","ts":1766740970.4062574,"event":{"timestamp":1766740970.4062574,"event_type":"trade_executed","data":{"price":22.3,"quantity":1,"side":"buy"},"message":"Trade buy"}}
+{"type":"command","ts":1766740971.5679548,"command":"lift","payload":{"price":22.3,"qty":1}}
+{"type":"event","ts":1766740971.5679548,"event":{"timestamp":1766740971.5679548,"event_type":"trade_executed","data":{"price":22.3,"quantity":1,"side":"buy"},"message":"Trade buy"}}
+{"type":"command","ts":1766740972.643012,"command":"lift","payload":{"price":22.3,"qty":1}}
+{"type":"event","ts":1766740972.643012,"event":{"timestamp":1766740972.643012,"event_type":"trade_executed","data":{"price":22.3,"quantity":1,"side":"buy"},"message":"Trade buy"}}
+{"type":"command","ts":1766740973.5145693,"command":"lift","payload":{"price":23.1,"qty":1}}
+{"type":"command","ts":1766740974.402148,"command":"lift","payload":{"price":23.1,"qty":1}}
+{"type":"command","ts":1766740975.1671274,"command":"lift","payload":{"price":22.3,"qty":1}}
+{"type":"event","ts":1766740983.837561,"event":{"timestamp":1766740983.837561,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766740984.0493288,"event":{"timestamp":1766740984.0493288,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766740993.9306958,"event":{"timestamp":1766740993.9306958,"event_type":"round_end","data":{"round":5},"message":"Round 5 ended"}}
+{"type":"event","ts":1766740993.9306958,"event":{"timestamp":1766740993.9306958,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",3.5999999999999943],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["HFT_Shark",-1.2000000000000028],["YOU",-3.6000000000000085]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766740993.9306958,"event":{"timestamp":1766740993.9306958,"event_type":"digit_reveal","data":{"digit":6,"index":4},"message":"Digit 5 revealed: 6"}}
+{"type":"event","ts":1766741004.0854106,"event":{"timestamp":1766741004.0854106,"event_type":"round_start","data":{"round":6},"message":"Round 6 started"}}
+{"type":"event","ts":1766741009.048955,"event":{"timestamp":1766741009.048955,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766741052.8970566,"event":{"timestamp":1766741052.8970566,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766741063.778425,"event":{"timestamp":1766741063.778425,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"event","ts":1766741080.3314288,"event":{"timestamp":1766741080.3314288,"event_type":"volatility_spike","data":{"old":4.5,"new":4.5},"message":"Vol spike"}}
+{"type":"command","ts":1766741090.8055983,"command":"hit","payload":{"price":23.6,"qty":1}}
+{"type":"command","ts":1766741092.6920443,"command":"hit","payload":{"price":23.2,"qty":1}}
+{"type":"event","ts":1766741092.6928456,"event":{"timestamp":1766741092.6928456,"event_type":"trade_executed","data":{"price":23.2,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"command","ts":1766741093.5082712,"command":"hit","payload":{"price":23.2,"qty":1}}
+{"type":"event","ts":1766741093.5082712,"event":{"timestamp":1766741093.5082712,"event_type":"trade_executed","data":{"price":23.2,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"command","ts":1766741094.445603,"command":"hit","payload":{"price":23.2,"qty":1}}
+{"type":"event","ts":1766741094.445603,"event":{"timestamp":1766741094.445603,"event_type":"trade_executed","data":{"price":23.2,"quantity":1,"side":"sell"},"message":"Trade sell"}}
+{"type":"event","ts":1766741094.6188061,"event":{"timestamp":1766741094.6188061,"event_type":"round_end","data":{"round":6},"message":"Round 6 ended"}}
+{"type":"event","ts":1766741094.6188061,"event":{"timestamp":1766741094.6188061,"event_type":"leaderboard","data":{"leaderboard":[["Arb_Fund",1.1999999999999922],["MMaker_Citadel",0.0],["FOMO_Retail",0.0],["HFT_Shark",-1.2000000000000028],["YOU",-1.5000000000000107]]},"message":"Leaderboard updated"}}
+{"type":"event","ts":1766741094.6188061,"event":{"timestamp":1766741094.6188061,"event_type":"digit_reveal","data":{"digit":2,"settlement":21},"message":"Final digit: 2 | Settlement: 21"}}
